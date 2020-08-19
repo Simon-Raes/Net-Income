@@ -2,7 +2,7 @@
 Calculate total and average net income over time of a BNP bank account. 
 
 # Setup
-Run `npm install` in the project's folder.
+`npm install`
 
 # Running the script
 
@@ -10,9 +10,9 @@ Example command:
 `node finance.js -i /Users/simon.raes/Downloads/CSV_2020-08-19-09.23.csv -m 24 -l 4000`
 
 ## Arguments: 
-* i: Input csv file (mandatory)
-* m: Number of months to use in the the calculation (optional, default is 12)
-* l: Limit on transaction amount. Any transactions above this number will be ignored in the calculation. 
+* i: Input csv file. (mandatory)
+* m: Number of months to use in the the calculation, going back from the current month. (optional, default is 12)
+* l: Limit on transaction amount. Any transactions larger than this (both positive and negative) will be ignored in the calculation. (optional, default is no limit)
 
 # Obtaining a BNP CSV file
 * Log in to your BNP account.
