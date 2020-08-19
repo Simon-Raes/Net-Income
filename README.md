@@ -7,7 +7,10 @@ Calculate total and average net income over time of a BNP bank account.
 # Running the script
 
 Example usage:
+
 `node finance.js -i /Users/simon.raes/Downloads/CSV_2020-08-19-09.23.csv -m 24 -l 4000`
+
+
 Example output:
 
 ![hm](https://i.imgur.com/7O10q7B.png)
