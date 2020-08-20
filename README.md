@@ -16,7 +16,7 @@ Example output:
 ![hm](https://i.imgur.com/7O10q7B.png)
 
 ## Arguments: 
-* i: Input csv file. (mandatory)
+* i: Input csv file. (required)
 * m: Number of months to use in the the calculation, going back from the current month. (optional, default is 12)
 * l: Limit on transaction amount. Any transactions larger than this (both positive and negative) will be ignored in the calculation. (optional, default is no limit)
 
